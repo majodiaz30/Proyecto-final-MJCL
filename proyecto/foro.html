@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foro de Discusión</title>
+    <link rel="stylesheet" href="foro.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Foro de Discusión sobre Energías Renovables</h1>
+    </header>
+
+    <section class="container">
+      <h2>Comparte tus ideas</h2>
+
+      <form id="commentForm">
+        <label for="username">Nombre:</label>
+        <input type="text" id="username" required />
+
+        <label for="comment">Comentario:</label>
+        <textarea id="comment" required></textarea>
+
+        <button type="submit">Publicar Comentario</button>
+      </form>
+
+      <div id="commentsSection">
+        <h3>Comentarios:</h3>
+        <ul id="commentsList"></ul>
+      </div>
+    </section>
+
+    <script src="foro.js"></script>
+  </body>
+</html>

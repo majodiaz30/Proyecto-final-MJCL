@@ -1,0 +1,89 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Fuente legible */
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #333; /* Color del texto */
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+/* Encabezado */
+header {
+    background-color: #00b09b; /* Color verde */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 2rem; /* Espaciado vertical */
+}
+
+/* Sección del contenedor */
+.container {
+    max-width: 800px; /* Ancho máximo para la sección */
+    margin: 2rem auto; /* Centra la sección horizontalmente y margenes verticales */
+    padding: 2rem; /* Espaciado interno */
+    background-color: white; /* Fondo blanco para la sección */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilos para encabezados dentro de la sección */
+h2 {
+    color: #00b09b; /* Color verde para encabezados secundarios */
+    margin-bottom: 1rem; /* Margen inferior para separar del texto siguiente */
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+}
+
+label {
+    margin-bottom: 0.5rem; /* Espaciado inferior para etiquetas */
+}
+
+input[type="text"],
+textarea {
+    padding: 10px; /* Espaciado interno en campos de texto y textarea */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 1rem; /* Espaciado inferior entre campos */
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar solo verticalmente el textarea */
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #4CAF50; /* Color de fondo para el botón */
+    color: white; /* Texto blanco en el botón */
+    border: none; /* Sin borde en el botón */
+    border-radius: 5px; /* Bordes redondeados en el botón */
+    padding: 10px; /* Espaciado interno en el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+    background-color: #45a049; /* Color más oscuro al pasar el mouse sobre el botón */
+}
+
+/* Sección de comentarios */
+#commentsSection {
+    margin-top: 2rem; /* Margen superior para separar comentarios del formulario */
+}
+
+#commentsList {
+    list-style-type: none; /* Sin viñetas en la lista de comentarios */
+}
+
+#commentsList li {
+    background-color: #f9f9f9; /* Fondo claro para cada comentario */
+    border-radius: 5px; /* Bordes redondeados en comentarios */
+    padding: 10px; /* Espaciado interno en comentarios */
+    margin-bottom: 1rem; /* Margen inferior entre comentarios */
+}

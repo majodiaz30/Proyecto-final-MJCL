@@ -1,0 +1,560 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333; /* Color de texto más oscuro para mejor legibilidad */
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f0f0f0, #d9e6d9); /* Fondo suave */
+  text-align: center; /* Centra el texto en todo el cuerpo */
+  background-color: #27a2b2;
+}
+
+.impacto-seccion {
+  background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semitransparente */
+  margin: 20px auto; /* Espaciado entre secciones */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 800px; /* Ancho máximo */
+}
+
+.impacto-seccion h2 {
+  color: #4CAF50; /* Color verde elegante */
+  text-align: center; /* Centrar títulos */
+  margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.impacto-seccion ul {
+  list-style-type: none; /* Eliminar viñetas por defecto */
+  padding: 0; /* Eliminar padding por defecto */
+}
+
+.impacto-seccion li {
+  position: relative; /* Permitir posicionamiento relativo para el ícono */
+  padding-left: 25px; /* Espacio a la izquierda para el ícono */
+  margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+}
+
+.impacto-seccion li::before {
+  content: '•'; /* Usar un punto como ícono antes del texto */
+  color: #4CAF50; /* Color del ícono (punto) */
+  font-size: 1.5em; /* Tamaño del ícono */
+  position: absolute; /* Posicionamiento absoluto para el ícono */
+  left: 0; /* Alinear a la izquierda del texto */
+}
+
+.impacto-seccion p {
+  text-align: left; /* Alinear texto a la izquierda para mejor legibilidad */
+  color: #555; /* Color gris suave para mejor legibilidad */
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none; /* Elimina el subrayado en todos los estados */
+}
+h1{
+  font-size: 2.3em;
+  line-height: 1.3em;
+  margin: 15px 0;
+  text-align: center;
+  font-weight: 300;
+}
+h1, h2 {
+  text-align: center; /* Centrar títulos */
+}
+
+h2 {
+  color: #3d413d; /* Color del título */
+}
+
+/* Estilo para el encabezado */
+  #main-header {
+    position: fixed; /* Fijar el encabezado en la parte superior */
+    top: 0; /* Alinear al borde superior */
+    left: 0; /* Alinear al borde izquierdo */
+    width: 100%; /* Ancho completo */
+    z-index: 10; /* Asegurar que esté por encima del video */
+}
+#main-header a {
+  color:white
+}
+/* Estilo para el contenedor del logo y la navegación */
+.header-content {
+  background: none; /* Sin fondo para ver el video detrás */
+  color: white;
+  padding: 10px 20px; /* Espaciado alrededor del contenido */
+  display: flex; /* Usar flexbox para alinear elementos */
+  justify-content: space-between; /* Espacio entre logo y navegación */
+  align-items: center; /* Centrar verticalmente los elementos */
+}
+/* Estilo para el logo */
+#logo-header {
+  display: inline-block; /* Mostrar como bloque en línea */
+  text-decoration: none; /* Sin subrayado */
+}
+#logo-header:hover{
+  color: #0bf6a6;
+}
+#logo-header .site-name {
+  font-weight: 700;
+  font-size: 1.8em; /* Tamaño del texto del logo */
+}
+#logo-header.site.desc{
+  display:block;
+  font-weight:300;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #999;
+}
+
+/* Estilo para la navegación */
+nav {
+
+  float: right; /* Alinear la navegación a la derecha */
+}
+nav ul {
+  padding: 0;
+  list-style-type: none; /* Eliminar viñetas por defecto */
+  display: flex; /* Usar flexbox para alinear horizontalmente */
+}
+
+nav ul li {
+  margin: 0 15px; /* Espacio entre los botones */
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 15px; /* Espaciado interno del botón */
+  color: white;
+  text-decoration: none; /* Sin subrayado */
+  border-radius: 5px; /* Bordes redondeados para los botones */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar color */
+}
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Color de fondo al pasar el mouse */
+}
+header {
+    background: linear-gradient(45deg,#00b09b, #96c93d);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 60%);
+    animation: shine 10s infinite linear;
+}
+.introduccion {
+  background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semitransparente */
+  margin: 20px auto; /* Espaciado entre secciones */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: inline-block; /* Hacer que el cuadro se ajuste al contenido */
+  max-width: fit-content; /* Ajustar el ancho al contenido */
+  text-align: center; /* Centrar texto dentro del cuadro */
+  font-size: 2em;
+}
+.content p {
+  font-size: 0.5em; /* Ajusta este valor según lo necesites (0.9em es un 90% del tamaño base) */
+  line-height: 1.5; /* Ajusta el interlineado para mejorar la legibilidad */
+  color: #555; /* Color gris suave para mejor legibilidad */
+}
+.more-info {
+  margin-top: 20px; /* Espacio superior para el botón */
+}
+
+#moreInfoButton {
+  padding: 10px 20px; /* Espaciado interno del botón */
+  background-color: #4CAF50; /* Color del botón */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Bordes redondeados para el botón */
+  cursor: pointer;
+}
+
+#moreInfoButton:hover {
+  background-color: #45a049; /* Color al pasar el mouse sobre el botón */
+}
+h2 {
+  color: #292e29; /* Color verde elegante */
+  text-align: center; /* Centrar títulos */
+  margin-bottom: 10px; /* Espaciado inferior */
+}
+
+ul {
+  list-style-type: none; /* Eliminar viñetas por defecto */
+  padding: 0; /* Eliminar padding por defecto */
+}
+
+li {
+  position: relative; /* Permitir posicionamiento relativo para el ícono */
+  padding-left: 25px; /* Espacio a la izquierda para el ícono */
+  margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+}
+
+/* Estilo para el ícono antes del texto en la lista */
+li::before {
+  font-size: 1.5em; /* Tamaño del ícono */
+  position: absolute; /* Posicionamiento absoluto para el ícono */
+  left: 0; /* Alinear a la izquierda del texto */
+}
+
+strong {
+  color: #af4c4c; /* Color verde para los puntos clave */
+}
+
+.Videos {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 80px;
+    z-index: -5; 
+}
+.Videos video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+header {
+    position: relative; 
+    z-index: 1; 
+}
+
+header nav ul li a:hover {
+    color: #ff4500;
+}
+
+@keyframes shine {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+nav ul li {
+  margin: 0 15px; /* Espacio entre los elementos del menú */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 25px;
+  background-color: rgba(255,255,255,0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+nav ul li a:hover {
+  background-color: rgba(255,255,255,0.3);
+  transform: translateY(-3px); /* Efecto de elevación al pasar el mouse */
+}
+
+
+#main-content {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto; /* Centrado horizontal */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+  .container {
+    margin-bottom: 20px; /* Espaciado entre secciones */
+    text-align: center; /* Centrar contenido en el contenedor */
+}
+.container button {
+  width: auto; /* Ajustar ancho automático del botón */
+}
+
+.imagenes-soportes-seccion ul {
+  list-style-type: none; /* Eliminar viñetas por defecto */
+  padding: 0; /* Eliminar padding por defecto */
+}
+
+.imagenes-soportes-seccion li {
+  margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+}
+
+.imagenes-soportes-seccion a {
+  text-decoration: none; /* Sin subrayado */
+}
+
+.imagenes-soportes-seccion a:hover {
+  text-decoration: underline; /* Subrayar al pasar el mouse sobre el enlace */
+}
+
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+section {
+  background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semitransparente */
+  margin: 20px auto; /* Espaciado entre secciones */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 800px; /* Ancho máximo */
+}
+section h2 {
+  color: #4CAF50; /* Color verde elegante */
+  text-align: center; /* Centrar títulos */
+  margin-bottom: 10px; /* Espaciado inferior */
+}
+section p {
+  text-align: center; /* Centrar texto */
+  color: #555; /* Color gris suave para mejor legibilidad */
+}
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+section h2 {
+  color: #4CAF50; /* Color verde elegante */
+  text-align: center; /* Centrar títulos */
+  margin-bottom: 10px; /* Espaciado inferior */
+}
+section p {
+  text-align: center; /* Centrar texto */
+  color: #555; /* Color gris suave para mejor legibilidad */
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-section {
+  background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semitransparente */
+  margin: 20px auto; /* Espaciado entre secciones */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 800px; /* Ancho máximo */
+}
+.form-section h2 {
+  color: #4CAF50; /* Color verde elegante */
+  text-align: center; /* Centrar títulos */
+  margin-bottom: 10px; /* Espaciado inferior */
+}
+.form-section p {
+  text-align: center; /* Centrar texto */
+  color: #555; /* Color gris suave para mejor legibilidad */
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column; /* Colocar elementos en columna */
+}
+.form-section form {
+  display: flex;
+  flex-direction: column; /* Colocar elementos en columna */
+}
+.form-section input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.form-section button {
+  margin-top: 20px; /* Espacio superior del botón */
+}
+.form-container {
+  background-color: #f9f9f9; /* Fondo suave para el contenedor del formulario */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+  .form-wrapper h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+.form-container label {
+  display: block; /* Mostrar etiquetas como bloques para alineación vertical */
+  margin-top: 10px; /* Espacio superior entre etiquetas */
+}
+
+.form-container input {
+  width: calc(100% - 20px); /* Ancho completo menos padding */
+  padding: 10px;
+  margin-top: 5px; /* Espacio superior entre etiqueta y campo de entrada */
+  border: 1px solid #ddd; /* Borde suave */
+  border-radius: 4px; /* Bordes redondeados en campos de entrada */
+}
+.form-container button {
+  width: 100%; /* Botón ocupa todo el ancho del contenedor */
+  padding: 10px;
+  background-color: #4CAF50; /* Color del botón */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #45a049; /* Color al pasar el mouse sobre el botón */
+}
+
+#resultado {
+  margin-top: 20px;
+  text-align: center;
+  color: #333;
+}
+  button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.20s;
+    display: block; /* Hacer que el botón ocupe todo el ancho */
+    margin: 20px auto; /* Centrar botón */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno del botón */
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #resultado {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+  }
+
+  @media (max-width: 600px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+section {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.split-image {
+    height: 400px;
+    display: flex;
+    margin: 3rem auto;
+    max-width: 800px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  
+  .left-half, .right-half {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s ease;
+  }
+  
+  .left-half {
+    background-image: url(Energia.png);
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+  }
+  
+  .right-half {
+    background-image: url(Energia.png);
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  }
+  
+  .split-image:hover .left-half {
+    clip-path: polygon(0 0, 90% 0, 75% 100%, 0 100%);
+  }
+  
+  .split-image:hover .right-half {
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 10% 100%);
+  }
+
+  footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+  }
+
+  footer p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+
+  footer:hover {
+    background-color: black;
+    transition: background-color 0.3s ease;
+  }
+
+  @media (max-width: 600px) {
+    footer {
+      padding: 15px 10px;
+      font-size: 12px;
+    }
+  }
+
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: green;
+  }

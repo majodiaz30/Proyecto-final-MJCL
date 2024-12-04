@@ -1,0 +1,60 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fuente legible */
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #333; /* Color del texto */
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+/* Encabezado */
+header {
+    background-color: #00b09b; /* Color verde */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 2rem; /* Espaciado vertical */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo para la sección */
+    margin: 2rem auto; /* Centra la sección horizontalmente y margenes verticales */
+    padding: 2rem; /* Espaciado interno */
+    background-color: white; /* Fondo blanco para la sección */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilos para encabezados dentro de la sección */
+h1 {
+    font-size: 2.5rem; /* Tamaño de fuente grande para el título principal */
+}
+
+h2 {
+    color: #00b09b; /* Color verde para encabezados secundarios */
+    margin-top: 1.5rem; /* Margen superior para separar del texto anterior */
+}
+
+h3 {
+    color: #333; /* Color del texto para subtítulos */
+}
+
+/* Listas no ordenadas */
+ul {
+    list-style-type: disc; /* Viñetas en listas no ordenadas */
+    margin-left: 20px; /* Margen a la izquierda para listas */
+}
+
+ul li {
+    margin-bottom: 10px; /* Espaciado inferior entre elementos de lista */
+}
+
+/* Estilos para párrafos */
+p {
+    margin-bottom: 1rem; /* Espaciado inferior entre párrafos */
+}
